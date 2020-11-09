@@ -4,13 +4,14 @@ export default {
     colors: {
         color0: '#1B2329',
         color1: '#474747',
-        color2: '#38454F',
-        color3: '#F5F5F5',
+        color2: '#f5f5f5',
+        color3: '#38454F',
         color4: '#212C33',
         color5: '#8697CB',
         color6: '#4BB543',
         color7: '#cc0000',
         color8: '#7192ab',
+        color9: '#d6d6d6'
     },
 
     transitions: {

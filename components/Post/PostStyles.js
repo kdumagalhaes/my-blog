@@ -1,20 +1,21 @@
 import styled from 'styled-components';
 
 export const ArticleTag = styled.article`
-  border-bottom: 1px solid ${({ theme }) => theme.colors.color4};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.color9};
   padding-bottom: 30px;
   margin-bottom: 40px;
   h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 32px;
 
     a {
-      color: ${({ theme }) => theme.colors.color8};
+      color: ${({ theme }) => theme.colors.color1};
       text-decoration: none;
+      transition: color 0.3s;
 
       &:hover {
-        color: ${({ theme }) => theme.colors.color5};
+        color: ${({ theme }) => theme.colors.color8};
       }
     }
   }

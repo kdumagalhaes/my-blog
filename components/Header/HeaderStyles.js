@@ -12,9 +12,9 @@ export const LogoH1 = styled.h1`
   font-weight: 400;
 
   a {
-    color: ${({ theme }) => theme.colors.color8};
+    color: ${({ theme }) => theme.colors.color1};
     text-decoration: none;
-    border-right: 2px solid ${({ theme }) => theme.colors.color8};
+    border-right: 2px solid ${({ theme }) => theme.colors.color1};
     padding-right: 5px;
     white-space: nowrap;
     font-size: 1.2rem;
@@ -26,7 +26,7 @@ export const LogoH1 = styled.h1`
 
   @keyframes blinkCursor {
     from {
-      border-right-color: ${({ theme }) => theme.colors.color8};
+      border-right-color: ${({ theme }) => theme.colors.color1};
     }
     to {
       border-right-color: transparent;
@@ -39,8 +39,8 @@ export const ProfileDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid ${({ theme }) => theme.colors.color4};
-  border-bottom: 1px solid ${({ theme }) => theme.colors.color4};
+  border-top: 1px solid ${({ theme }) => theme.colors.color9};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.color9};
   padding: 30px 0;
 
   img {

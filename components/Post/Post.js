@@ -5,7 +5,7 @@ const Post = ({title, content}) => {
   return (
     <ArticleTag>
       <h2>
-        <a href="/">This is a very big title that will serve as a test</a>
+        <a href="/">{title}</a>
       </h2>
       <small>May 20, 2020</small>
       <p>

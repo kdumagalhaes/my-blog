@@ -13,7 +13,7 @@ body, input, button, textarea {
         font-family: 'Fira Code', monospace;
             }
 body {
-    background-color: ${({ theme }) => theme.colors.color2};
+    background-image: url('so-white.png');
     color: ${({ theme }) => theme.colors.color3};
 }        
 button {
